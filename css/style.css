@@ -117,7 +117,7 @@ body {
   border-radius: 0.5rem;
   text-align: center;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .card__subscription a:hover {
