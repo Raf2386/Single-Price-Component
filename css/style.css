@@ -119,6 +119,16 @@ body {
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.card__subscription a:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__subscription a:active {
+  transform: translateY(0rem);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 .card__info {
   background-color: var(--color-cyan);
   opacity: 0.8;
@@ -147,4 +157,25 @@ body {
     padding: 4rem 3rem;
     flex-basis: 100%;
   }
+  .card__subscription a:hover {
+    transform: none;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card__subscription a:active {
+    transform: none;
+  }
+  
+  @media all and (min-width: 768px) {
+  .container {
+    height: 100vh;
+    padding: 6rem 10rem;
+  }
+}
+
+@media all and (min-width: 860px) {
+  .container {
+    padding: 0rem;
+  }
+}
 }
